@@ -15,8 +15,26 @@
 
 ![Preview](theme3.png)
 
+# download spicetify
 
-# How to download
+## **Windows**
+
+**Powershell (pre-built binary) - Recommended**
+
+**Put in terminal**
+
+`iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex`
+
+
+## **Linux and MacOS**
+**Shell (pre-built binary) - Recommended**
+
+**Put in terminal**
+
+`curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh`
+
+
+# How to download theme
 
 
 ### First open ~/.config/spicetify/Themes and create folder grey_night and 
