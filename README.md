@@ -25,7 +25,6 @@
 ### `current_theme = grey_night` 
 ### **Write** `spicetify apply` in terminal
 
-#### thats all tysm for download my first theme
 
 # download spicetify
 
@@ -46,3 +45,7 @@
 `curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh`
 
 
+
+#### thats all tysm for download my first theme
+
+### (you can change your theme color in color.ini more in color.ini file...)
