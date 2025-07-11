@@ -1,4 +1,4 @@
 # grey-night
 
 
-![Preview](Assets/thme1.png)
+![Preview](grey-night/thme1.png)
