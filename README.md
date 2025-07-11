@@ -23,3 +23,5 @@
 ### after that open ~/.config/spicetify/**config-xpui.ini** and change 
 ### `current_theme = grey_night` 
 ### **Write** `spicetify apply` in terminal
+
+#### thats all tysm for download my first theme
