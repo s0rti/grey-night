@@ -20,6 +20,6 @@
 ### First open ~/.config/spicetify/Themes and create folder grey_night and 
 ### 
 Put in `color.ini` and `user.css`
-### after that open ~/.config/spicetify/ 
-`config-xpui.ini` and change 
+### after that open ~/.config/spicetify/config-xpui.ini and change 
 `current_theme = grey_night`
+ after that write `spicetify apply` in terminal
