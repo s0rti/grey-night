@@ -5,6 +5,8 @@
 ### Menu
 ![Preview](theme1.png)
 
+![Preview](theme4.png)
+
 ### Opened playlist 
 
 ![Preview](theme2.png)
