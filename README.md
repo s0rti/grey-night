@@ -15,6 +15,18 @@
 
 ![Preview](theme3.png)
 
+# How to download theme
+
+
+### First open ~/.config/spicetify/Themes and create folder grey_night and 
+### 
+#### **Put in** `color.ini` **and** `user.css`
+### after that open ~/.config/spicetify/**config-xpui.ini** and change 
+### `current_theme = grey_night` 
+### **Write** `spicetify apply` in terminal
+
+#### thats all tysm for download my first theme
+
 # download spicetify
 
 ## **Windows**
@@ -34,14 +46,3 @@
 `curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh`
 
 
-# How to download theme
-
-
-### First open ~/.config/spicetify/Themes and create folder grey_night and 
-### 
-#### **Put in** `color.ini` **and** `user.css`
-### after that open ~/.config/spicetify/**config-xpui.ini** and change 
-### `current_theme = grey_night` 
-### **Write** `spicetify apply` in terminal
-
-#### thats all tysm for download my first theme
