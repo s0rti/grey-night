@@ -8,3 +8,10 @@
 ### Opened playlist 
 
 ![Preview](theme2.png)
+
+### Searching menu
+
+![Preview](theme3.png)
+
+
+# How to download
