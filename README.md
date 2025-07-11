@@ -22,4 +22,4 @@
 **Put in** `color.ini` **and** `user.css`
 ### after that open ~/.config/spicetify/**config-xpui.ini** and change 
 `current_theme = grey_night` 
-**Write** `spicetify apply` in terminal
+### **Write** `spicetify apply` in terminal
