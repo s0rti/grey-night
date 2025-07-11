@@ -1,4 +1,4 @@
 # grey-night
 
 
-![Preview](grey-night/theme1.png)
+![Preview](main/theme1.png)
