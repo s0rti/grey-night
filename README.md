@@ -1,6 +1,6 @@
 # grey-night
 
-# Spicetify theme (grey-night)
+# Spicetify theme screenshots (grey-night)
 
-# Menu
+**Menu**
 ![Preview](theme1.png)
