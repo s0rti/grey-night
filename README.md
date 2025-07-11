@@ -2,5 +2,5 @@
 
 # Spicetify theme screenshots (grey-night)
 
-### ** Menu
+### Menu
 ![Preview](theme1.png)
