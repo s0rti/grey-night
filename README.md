@@ -2,16 +2,16 @@
 
 # Spicetify theme screenshots (grey-night)
 
-### Menu
+## Menu
 ![Preview](theme1.png)
 
 ![Preview](theme4.png)
 
-### Opened playlist 
+## Opened playlist 
 
 ![Preview](theme2.png)
 
-### Searching menu
+## Searching menu
 
 ![Preview](theme3.png)
 
