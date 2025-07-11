@@ -15,3 +15,7 @@
 
 
 # How to download
+
+
+## First open ~/.config/spicetify/Themes and create folder grey_night and 
+##       Put in ** color.ini **
