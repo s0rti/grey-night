@@ -1,4 +1,4 @@
-# grey-night
+# grey-night **spicetify theme**
 
 # Spicetify theme screenshots (grey-night)
 
