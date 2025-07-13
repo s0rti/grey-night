@@ -18,10 +18,10 @@
 # How to download theme
 
 
-### First open C:\Users\USERNAME\.spicetify\Themes **OR** ~/.config/spicetify/Themes and create folder grey_night and 
+### First open `C:\Users\USERNAME\.spicetify\Themes` **OR** `~/.config/spicetify/Themes` and create folder grey_night and 
 ### 
 #### **Put in** `color.ini` **and** `user.css`
-### after that open C:\Users\USERNAME\.spicetify\Themes **OR** ~/.config/spicetify/**config-xpui.ini** and change 
+### after open `C:\Users\USERNAME\.spicetify\Themes` **OR** `~/.config/spicetify/**config-xpui.ini**` and change 
 ### `current_theme = grey_night` 
 ### **Write** `spicetify apply` in terminal
 
