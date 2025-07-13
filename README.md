@@ -27,6 +27,8 @@
 ### **And write** `spicetify apply` in terminal
 
 
+### (you can change your theme color in color.ini more in color.ini file...)
+
 # download spicetify
 
 ## **Windows**
@@ -48,5 +50,3 @@
 
 
 #### thats all tysm for download my first theme
-
-### (you can change your theme color in color.ini more in color.ini file...)
