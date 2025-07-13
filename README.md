@@ -27,7 +27,7 @@
 ### **And write** `spicetify apply` in terminal
 
 
-### (you can change your theme color in color.ini more in color.ini file...)
+### (you can change your theme color in `color.ini` more in `color.ini` file...)
 
 # download spicetify
 
