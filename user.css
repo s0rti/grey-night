@@ -1,0 +1,174 @@
+@import url(https://schnensch0.github.io/ziro/ziro.css);
+
+:root {
+    --br-1: 10px;
+    --br-2: 8px;
+    --scrollbar: unset;
+}
+
+
+.view-homeShortcutsGrid-shortcut {
+    background-color: rgb(87 87 87 / 25%) !important;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+}
+
+.main-trackList-trackListRow {
+    border-radius: 4px;
+}
+
+.main-rootlist-wrapper {
+    background-color: rgb(0 0 0 / 25%) !important;
+    border-radius: 6px;
+
+}
+
+.main-playbackBarRemainingTime-container {
+
+    color: white;
+    border-radius: 12px;
+    height: 25px;
+    border: 2px solid #ffffff4d;
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contextMenu-tippy {
+    border-radius: 70px;
+}
+
+.playback-bar__progress-time-elapsed {
+    border: 2px solid #ffffff4d;
+    height: 25px;
+    color: white;
+    border-radius: 12px;
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playback-bar__progress-time-elapsed::after {
+    content: '';
+}
+
+.playback-bar__progress-time-elapsed{
+    right: 385px !important;
+}
+
+.playback-bar__progress-time-elapsed, .main-playbackBarRemainingTime-container{
+    margin-bottom: 32px;
+    right: 340px;
+}
+
+.main-nowPlayingBar-center {
+    width: 300px;
+    background-color: #37373745;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 55px;
+    border: 3px solid #74747426;
+
+}
+
+.player-controls__left, .player-controls__right{
+    gap: 40px !important;
+}
+
+.marketplace-header__right>:is(div, button) {
+    margin-top: 180px;
+
+}
+
+.marketplace-tabBar-active {
+    background-color: #404040 !important;
+}
+
+.main-topBar-container a {
+    color: white;
+}
+
+
+
+.marketplace-header__right {
+    position: absolute;
+    margin-bottom: 150px;
+    margin-left: 400px;
+}
+
+.main-home-filterChipsSection {
+    background-color: rgba(94, 94, 94, 0.53) !important;
+    backdrop-filter: blur(7px);
+}
+
+.marketplace-header__left {
+    margin-top: 30px;
+}
+
+.marketplace-card-type-heading {
+    margin-top: 70px;
+}
+
+.GimJ6fo6WOYPyWNVpSr1 {
+    background-color: #00000057 !important;
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+}
+
+/* .Root__main-view {
+    background: #202020 !important;
+    background: linear-gradient(160deg, #202020 60%, #333333 100%) !important;
+} */
+
+.x-progressBar-progressBarBg {
+    background-color: #3131315c !important;
+    backdrop-filter: blur(10px);
+
+}
+
+.e-9960-form-input-icon{
+    border: 2px solid rgb(43, 43, 43);
+    border-radius: 50px;
+}
+
+.Root__globalNav .main-globalNav-navLink{
+    background-color: transparent;
+}
+
+.main-globalNav-navLink:hover{
+    background-color: transparent;
+}
+
+
+.hZjAwWMA54TvbGYwReET{
+    margin-left: 10px;
+    border-radius: 14px;
+}
+
+.view-homeShortcutsGrid-shortcut:hover {
+  
+    background-color: rgb(55 55 55 / 25%) !important;
+}
+
+.main-trackList-trackListHeader{
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a3a7a;
+    backdrop-filter: blur(4px);
+    top: 15px !important;
+    border: 2px solid #3a3a3a26;
+    height: 60px !important;
+}
+
+
+.main-trackList-trackListRow.main-trackList-selected, .jtZMR8Hj94od6BQce98P:active{
+    background-color: #c5d7dc !important;
+    backdrop-filter: blur(26px);
+}
