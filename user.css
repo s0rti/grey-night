@@ -5,24 +5,25 @@
     --br-2: 8px;
     --scrollbar: unset;
 }
-
+/* 
 .main-topBar-container .window-controls .window-control {
     color: white !important;
-    /* Белый цвет */
-}
 
-/* Если нужно изменить цвет при наведении */
-.main-topBar-container .window-controls .window-control:hover {
+}*/
+
+/* .main-topBar-container .window-controls .window-control:hover {
     opacity: 0.8 !important;
 }
 
 .macOS .window-controls .window-control {
     color: white !important;
-}
+} */
 
-.window-control {
+/*.window-control {
     display: none !important;
-}
+}*/
+
+/*its doesn't work*/
 
 /*-----------------------------------------------------------------------------------*/
 
