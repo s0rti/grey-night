@@ -1,0 +1,312 @@
+@import url(https://schnensch0.github.io/ziro/ziro.css);
+
+:root {
+    --br-1: 10px;
+    --br-2: 8px;
+    --scrollbar: unset;
+}
+
+.main-topBar-container .window-controls .window-control {
+    color: white !important;
+    /* Белый цвет */
+}
+
+/* Если нужно изменить цвет при наведении */
+.main-topBar-container .window-controls .window-control:hover {
+    opacity: 0.8 !important;
+}
+
+.macOS .window-controls .window-control {
+    color: white !important;
+}
+
+.window-control {
+    display: none !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+.view-homeShortcutsGrid-shortcut {
+    background-color: rgb(87 87 87 / 25%) !important;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+}
+
+.main-trackList-trackListRow {
+    border-radius: 4px;
+}
+
+.main-rootlist-wrapper {
+    background-color: rgb(0 0 0 / 25%) !important;
+    border-radius: 6px;
+
+}
+
+.main-playbackBarRemainingTime-container {
+
+    color: white;
+    border-radius: 12px;
+    height: 25px;
+    /* border: 2px solid #ffffff4d; */
+    background-color: #47474778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contextMenu-tippy {
+    border-radius: 70px;
+}
+
+.playback-bar__progress-time-elapsed {
+    /* border: 2px solid #ffffff4d; */
+    height: 25px;
+    color: white;
+    border-radius: 12px;
+    background-color: #47474778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.playback-bar__progress-time-elapsed::after {
+    content: '';
+}
+
+.playback-bar__progress-time-elapsed {
+    right: 385px !important;
+}
+
+.playback-bar__progress-time-elapsed,
+.main-playbackBarRemainingTime-container {
+    margin-bottom: 32px;
+    right: 340px;
+}
+
+.main-nowPlayingBar-center {
+    width: 300px;
+    background-color: #37373745;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 55px;
+    border: 2px solid #7474740a;
+
+}
+
+.player-controls__left,
+.player-controls__right {
+    gap: 40px !important;
+    margin-left: -137px !important;
+}
+
+.player-controls__right {
+    margin-left: 32px !important;
+}
+
+.marketplace-header__right>:is(div, button) {
+    margin-top: 180px;
+
+}
+
+.marketplace-tabBar-active {
+    background-color: #404040 !important;
+}
+
+.main-topBar-container a {
+    color: white;
+}
+
+/* search bar */
+.b7r2WRiu5f9Q99qmyreh .main-topBar-searchBar {
+    background-color: transparent !important;
+    backdrop-filter: blur(25px);
+    border-radius: 20px !important;
+}
+
+
+
+.marketplace-header__right {
+    position: absolute;
+    margin-bottom: 150px;
+    margin-left: 400px;
+}
+
+.main-home-filterChipsSection {
+    background-color: rgba(94, 94, 94, 0.53) !important;
+    backdrop-filter: blur(4px);
+}
+
+.marketplace-header__left {
+    margin-top: 30px;
+}
+
+.marketplace-card-type-heading {
+    margin-top: 70px;
+}
+
+
+.GimJ6fo6WOYPyWNVpSr1 {
+    background-color: #00000057 !important;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+}
+
+/* .Root__main-view {
+    background: #202020 !important;
+    background: linear-gradient(160deg, #202020 60%, #333333 100%) !important;
+} */
+
+.x-progressBar-progressBarBg {
+    background-color: #3131315c !important;
+    backdrop-filter: blur(10px);
+
+}
+
+.e-9960-form-input-icon {
+    border: 2px solid rgb(43, 43, 43);
+    border-radius: 50px;
+}
+
+.Root__globalNav .main-globalNav-navLink {
+    background-color: transparent;
+}
+
+.main-globalNav-navLink:hover {
+    background-color: transparent;
+}
+
+
+.hZjAwWMA54TvbGYwReET {
+    margin-left: 10px;
+    border-radius: 14px;
+}
+
+.view-homeShortcutsGrid-shortcut:hover {
+
+    background-color: rgb(55 55 55 / 25%) !important;
+}
+
+.main-trackList-trackListHeader {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a3a7a;
+    backdrop-filter: blur(2px);
+    top: 75px !important;
+    border: 2px solid #3a3a3a26;
+    height: 60px !important;
+    max-width: 100%;
+    width: auto !important;
+    min-width: 100px !important;
+}
+
+
+.main-trackList-trackListRow.main-trackList-selected,
+.jtZMR8Hj94od6BQce98P:active {
+    background-color: #c5d7dc !important;
+    backdrop-filter: blur(26px);
+}
+
+
+#BeautifulLyrics-CardView .Header .ShowLyrics {
+    backdrop-filter: blur(30px) !important;
+    background-color: var(--background-tinted-base) !important;
+    border: 1px solid hsla(0, 0%, 100%, 0.003) !important;
+    border-radius: 10px !important;
+}
+
+.main-nowPlayingView-contextItemInfo {
+    background-color: var(--background-tinted-base) !important;
+    border-radius: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    backdrop-filter: blur(17px);
+}
+
+.main-trackInfo-name {
+    background-color: #76767659 !important;
+    width: auto;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    min-width: 0px;
+    border-radius: 6px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.main-trackInfo-artists {
+    margin-bottom: 2px;
+}
+
+.wPHL366l99aluPsMU8Bl:hover {
+    background-color: var(--background-tinted-base) !important;
+    backdrop-filter: blur(17px);
+    color: var(--spice-text);
+}
+
+.wPHL366l99aluPsMU8Bl {
+    color: white;
+}
+
+.MVQhEntGN2lszQdk9z4m {
+    height: 55% !important;
+    margin-top: 15px !important;
+    background-color: rgb(87 87 87 / 25%) !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 7px;
+}
+
+/* .jzMBaEByD6M9xRmS9mv8{
+    backdrop-filter: blur(15px);
+    border-radius: 20px !important;
+} */
+
+#context-menu {
+    backdrop-filter: blur(2px) !important;
+    border-radius: 10px !important;
+}
+
+.wlb3dYO07PZuYfmNfmkS {
+    border: 1px transparent solid !important;
+    background-color: #0000009c !important;
+    padding: 1.45px !important;
+}
+
+.main-contextMenu-menuItemButton:hover {
+    background-color: #313131a8;
+}
+
+.MWD1i_CSJ5N9wRBDpZmX,
+.main-nowPlayingBar-nowPlayingBar {
+    background-color: #36363657 !important;
+    border-radius: 20px !important;
+}
+
+.DquSH3YjnaIIXMZiOvwA {
+    background-color: #00000091 !important;
+}
+
+.X5mwWAw7ijxPvQOoabzQ {
+    background: #00000021 !important;
+}
+
+.Button-buttonTertiary-textSubdued-small-useBrowserDefaultFocusStyle-condensed {
+    background-color: #7f7f7f2e !important;
+    width: 90px !important;
+}
+
+.ylBRlfNqGnzVa4kjUQGP {
+    border-radius: 15px;
+}
