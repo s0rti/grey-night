@@ -5,11 +5,16 @@
     --br-2: 8px;
     --scrollbar: unset;
 }
-/* 
-.main-topBar-container .window-controls .window-control {
-    color: white !important;
 
-}*/
+a {
+    text-decoration: none !important;
+}
+
+/* .main-topBar-container .window-controls .window-control {
+    color: white !important;
+   
+} */
+
 
 /* .main-topBar-container .window-controls .window-control:hover {
     opacity: 0.8 !important;
@@ -17,20 +22,20 @@
 
 .macOS .window-controls .window-control {
     color: white !important;
+}
+
+.window-control {
+    display: none !important;
 } */
 
-/*.window-control {
-    display: none !important;
-}*/
-
-/*its doesn't work*/
+/*doesn't work*/
 
 /*-----------------------------------------------------------------------------------*/
 
 
 .view-homeShortcutsGrid-shortcut {
     background-color: rgb(87 87 87 / 25%) !important;
-    border-radius: 25px;
+    border-radius: 20px;
     backdrop-filter: blur(20px);
 }
 
@@ -39,36 +44,53 @@
 }
 
 .main-rootlist-wrapper {
-    background-color: rgb(0 0 0 / 25%) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     border-radius: 6px;
 
-}
-
-.main-playbackBarRemainingTime-container {
-
-    color: white;
-    border-radius: 12px;
-    height: 25px;
-    /* border: 2px solid #ffffff4d; */
-    background-color: #47474778;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-contextMenu-tippy {
     border-radius: 70px;
 }
 
-.playback-bar__progress-time-elapsed {
-    /* border: 2px solid #ffffff4d; */
-    height: 25px;
+
+/*-------------------------------------------time--------------------------------------*/
+
+
+.main-playbackBarRemainingTime-container {
+    border: 2px solid #ffffff05;
+    height: 35px;
     color: white;
     border-radius: 12px;
-    background-color: #47474778;
+    background-color: #37373745;
     display: flex;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(1.2px);
+    width: 60px;
+    font-size: 25px;
+    font-family: Impact, fantasy;
+    /* font-family: Arial Narrow, sans-serif; */
+    /* font-family: Brush Script MT, Brush Script Std, cursive; */
+}
+
+
+.playback-bar__progress-time-elapsed {
+    border: 2px solid #ffffff05;
+    width: 60px;
+    height: 35px;
+    color: white;
+    border-radius: 12px;
+    background-color: #37373745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1.2px);
+    font-size: 25px;
+    font-family: Impact, fantasy;
+    /* font-family: Arial Narrow, sans-serif; */
+    /* font-family: Brush Script MT, Brush Script Std, cursive; */
+
     margin-right: 10px;
 }
 
@@ -77,37 +99,92 @@
 }
 
 .playback-bar__progress-time-elapsed {
-    right: 385px !important;
+    right: 155px !important;
 }
 
 .playback-bar__progress-time-elapsed,
 .main-playbackBarRemainingTime-container {
-    margin-bottom: 32px;
-    right: 340px;
+    margin-bottom: 190px;
+    right: 100px;
 }
 
 .main-nowPlayingBar-center {
     width: 300px;
     background-color: #37373745;
+    border: 2px solid #71717103;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
     height: 55px;
-    border: 2px solid #7474740a;
 
 }
 
 .player-controls__left,
 .player-controls__right {
     gap: 40px !important;
-    margin-left: -137px !important;
+    margin-left: -135px !important;
 }
 
 .player-controls__right {
     margin-left: 32px !important;
 }
+
+
+/*-------------------------------------------time--------------------------------------*/
+
+/*-------------------------------------------volume-bar------------------------------------*/
+
+.main-nowPlayingBar-extraControls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-masonry !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: end !important;
+    /* justify-content: flex-end; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 0 !important;
+}
+
+.volume-bar {
+    --bar: white;
+}
+
+.volume-bar__slider-container {
+    --slider-width: 65% !important;
+    position: absolute !important;
+    bottom: 62px;
+    width: 102px;
+    right: 343px;
+    background-color: #37373745 !important;
+    backdrop-filter: blur(1.2px) !important;
+    border: 2px solid #71717103 !important;
+    border-radius: 50px;
+    height: 32px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.control-button {
+    position: absolute;
+    bottom: 62px;
+    right: 450px;
+    color: white !important;
+    background-color: #37373745;
+    backdrop-filter: blur(1.2px);
+    border: 2px solid #71717103;
+}
+
+
+/*-------------------------------------------volume-bar------------------------------------*/
 
 .marketplace-header__right>:is(div, button) {
     margin-top: 180px;
@@ -133,8 +210,8 @@
 
 .marketplace-header__right {
     position: absolute;
-    margin-bottom: 150px;
-    margin-left: 400px;
+    margin-bottom: 190px;
+    margin-left: 450px;
 }
 
 .main-home-filterChipsSection {
@@ -143,7 +220,7 @@
 }
 
 .marketplace-header__left {
-    margin-top: 30px;
+    margin-top: -9px;
 }
 
 .marketplace-card-type-heading {
@@ -310,4 +387,76 @@
 
 .ylBRlfNqGnzVa4kjUQGP {
     border-radius: 15px;
+}
+
+.button-module__button___hf2qg_marketplace,
+.marketplace-add-snippet-btn {
+    bottom: 62px !important;
+    color: white !important;
+    background-color: #37373745 !important;
+    backdrop-filter: blur(1.7px);
+    border: 2px solid #71717103 !important;
+    left: 100% !important;
+}
+
+
+
+.Button-buttonTertiary-small-iconOnly-disabled-useBrowserDefaultFocusStyle:disabled,
+.Button-buttonTertiary-small-iconOnly-disabled-useBrowserDefaultFocusStyle[aria-disabled="true"] {
+    display: none !important;
+}
+
+
+.encore-dark-theme .encore-bright-accent-set {
+    --background-base: #37373745 !important;
+    backdrop-filter: blur(4px) !important;
+    --text-base: #efefef !important;
+    --background-highlight: #30303021 !important;
+    --background-press: #30303021 !important;
+    border: 2px solid #71717103 !important;
+}
+
+/* .encore-dark-theme .encore-bright-accent-set {
+    --background-base: #37373745 !important;
+    backdrop-filter: blur(4px) !important;
+    --text-base: #efefef !important;
+    --background-highlight: #30303021 !important;
+    --background-press: #30303021 !important;
+    border: 2px solid #71717103 !important;
+} */
+
+.encore-dark-theme .encore-inverted-light-set {
+    --background-base: #37373745 !important;
+    backdrop-filter: blur(4px) !important;
+    --text-base: #efefef !important;
+    --background-highlight: #30303021 !important;
+    --background-press: #30303021 !important;
+    border: 2px solid #71717103 !important;
+}
+
+.Button-buttonTertiary-large-iconOnly-useBrowserDefaultFocusStyle-condensed {
+    background-color: #37373745 !important;
+    border: 2px solid #71717103 !important;
+    backdrop-filter: blur(4px);
+    min-block-size: 0px !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.Button-buttonTertiary-textSubdued-large-iconOnly-useBrowserDefaultFocusStyle-condensed {
+    background-color: #37373745 !important;
+    border: 2px solid #71717103 !important;
+    backdrop-filter: blur(4px);
+    min-block-size: 0px !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.XKQRNQAUOAjRwwjuUnRU {
+    background-color: #37373745 !important;
+    border: 2px solid #71717103 !important;
+    backdrop-filter: blur(4px) !important;
+    height: 90px !important;
+    border-radius: 15px !important;
+    padding-left: 10px !important;
 }
