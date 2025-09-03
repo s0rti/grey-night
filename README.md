@@ -3,7 +3,7 @@
 # Spicetify theme screenshots (grey-night)
 
 ## Menu
-![Preview](theme1.png)
+![Preview]()
 
 ![Preview](theme4.png)
 
