@@ -7,10 +7,6 @@
 
 ![Preview](theme4.png)
 
-## Opened playlist 
-
-![Preview](theme2.png)
-
 ## Searching menu
 
 ![Preview](theme3.png)
